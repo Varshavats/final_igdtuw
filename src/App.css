@@ -1,0 +1,118 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  z-index: 10; 
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.navbar a {
+  padding: 0.75rem 1.25rem; /* Adjust padding as needed */
+}
+
+@media (max-width: 767px) {
+  .navbar a {
+    padding: 0.5rem 1rem; /* Reduce padding for smaller screens */
+  }
+}
+
+/* CSS */
+.cover-overlay {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 78%;
+  background-color: rgba(0, 0, 0, 0.3); /* Change the last value (0.5) to adjust opacity */
+}
+
+@media (max-width: 767px) {
+  .overlay {
+    height: 50%; /* Adjust this value as needed */
+  }
+}
+
+/* Media query for screens with a maximum width of 1023px */
+@media (max-width: 1023px) {
+  .overlay {
+    height: 60%; /* Adjust this value as needed */
+  }
+}
+
+/* Media query for screens with a maximum width of 1279px */
+@media (max-width: 1279px) {
+  .overlay {
+    height: 70%; /* Adjust this value as needed */
+  }
+}
+
+/* Media query for screens with a minimum width of 1280px */
+@media (min-width: 1280px) {
+  .overlay {
+    height: 78%; /* Adjust this value as needed */
+  }
+}
+
+.social-icons {
+  font-size: xx-large;
+}
+
+
+.social-icons a {
+  font-size: 1.5rem;
+  color: #064273; /* Adjust color as needed */
+}
+
+.social-icons a:hover {
+  color: #4c88c8; /* Adjust hover color as needed */
+}
+.social-icons p{
+  font-size: 1.5rem
+}
+
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.relative:hover .hidden {
+  display: block;
+}
+

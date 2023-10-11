@@ -1,0 +1,60 @@
+table{
+    table-layout: auto;
+    width: 100%;
+    /* border: 1px solid black; */
+}
+td{
+    text-align: center;
+    
+    
+}
+th{
+    /* border: 1px solid black; */
+    padding: 10px;
+}
+/* .stud_img{
+    border: 1px solid black;
+    height:10rem;
+    width:10rem;
+    align-items: center;
+   
+} */
+
+.resume-link:hover{
+    color: rgb(229, 17, 17);
+}
+/* In your CSS file or style tags */
+.student-info {
+    /* display: flex; */
+    align-items: center; /* Vertically align items */
+    
+  }
+  
+  .student-info-container {
+    display: flex;
+    align-items: center;
+    
+  }
+  
+  .stud_img {
+    /* max-width: 50px; Adjust the image size as needed */
+    /* margin-right: 1rem;  */
+    /* margin-left: 10rem; */
+    height:10rem;
+    width:10rem;
+    align-items: center;
+    border: 1px solid black;
+  }
+  
+  .student-name {
+    font-weight: bold;
+    text-align: center;
+    
+  }
+  .student-intrest {
+    font-weight: bold;
+    text-align: center;
+    
+  }
+
+  
